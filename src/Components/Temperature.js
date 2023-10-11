@@ -36,7 +36,7 @@ export default class Temperature extends Component {
     return (
       <center>
       <div>
-        
+      
         <TemperatureInput scale={"c"} temperature={celsius} onTemperatureChange={this.onCelsiusChange}/>
         <TemperatureInput scale={"f"} temperature={fahrenheit} onTemperatureChange={this.onFahrenheitChange}/>
         <BoilingPoint temperature={celsius}/>

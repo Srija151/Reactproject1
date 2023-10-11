@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 function Other() {
   return (
@@ -28,7 +28,7 @@ function Other() {
             <h6>Email:abc@gmail.com</h6>
         </section>
         <section id="form">
-            <h1>Temperature Converter</h1>
+            
             </section>
             
     </div>
